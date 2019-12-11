@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes">
+      <UniqueIdentifier>{1c7bd7f7-7485-4b35-9de3-b4d9520949e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Debug">
+      <UniqueIdentifier>{607c3b10-c6ad-4ad4-8c36-e0092c3aaeaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Debug\Asserts">
+      <UniqueIdentifier>{db820419-6e90-45f1-a9d3-13846c731995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Debug\Includes">
+      <UniqueIdentifier>{88852af8-4889-4e30-be33-8ad41b6ed426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Debug">
+      <UniqueIdentifier>{a703685f-654d-4727-8737-2c70c52554ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Debug\MemoryLeak">
+      <UniqueIdentifier>{3d373736-63f7-491c-9883-507537f25985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Engines">
+      <UniqueIdentifier>{4150fcf7-26b2-4bc6-a1e6-be880d4da083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Engines\Graphics">
+      <UniqueIdentifier>{e6093aec-8aaa-424a-9e6e-67c1dfeea983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Utils">
+      <UniqueIdentifier>{53bc63f0-5baa-49a1-97f8-f9d0413796ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Engines\Graphics\Implementations">
+      <UniqueIdentifier>{bfa72e3e-9d13-4ef0-af40-2f8e3ad8d837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Engines\Input">
+      <UniqueIdentifier>{3eec0ba2-ca5f-463d-828f-bd14627054de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Engines\Graphics\Interfaces">
+      <UniqueIdentifier>{b3a083a4-661b-429c-999a-c869e998802c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Engines\Input\Implementations">
+      <UniqueIdentifier>{5839b2ed-7e27-4773-bb0b-4127ca04dfb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Engines\Input\Interfaces">
+      <UniqueIdentifier>{2681b2bf-3b0f-4fa3-aa61-d9e272d19b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Entities">
+      <UniqueIdentifier>{e3053bd1-392e-4d54-9350-34f1eaab25db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Entities\Implementations">
+      <UniqueIdentifier>{2f725d7d-594e-4f80-bfb0-cd974115880a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Components">
+      <UniqueIdentifier>{555698cf-a294-47c9-91ff-43a377cf7022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Components\Implementations">
+      <UniqueIdentifier>{376c6852-e479-4273-a6bb-000e33e7a352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Engines\Manager">
+      <UniqueIdentifier>{643b6e6c-67da-4d6d-a405-faa2f75c585a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Game">
+      <UniqueIdentifier>{f8a41137-d734-4b93-a6e2-2204d001bcfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Engines\Screens">
+      <UniqueIdentifier>{e1c523ea-ae0f-4f4f-95ef-484f4e3d0139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Engines\Screens\Implementations">
+      <UniqueIdentifier>{8400f17c-d4d2-4a02-96af-fa586d054fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32\Engines\Screens\Interfaces">
+      <UniqueIdentifier>{345b1a27-ae89-4150-b59a-3fafbe7b5198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Entities\BaseClasses">
+      <UniqueIdentifier>{36b5fff4-38c4-4b23-a040-fb6cdfda7c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Screens">
+      <UniqueIdentifier>{da70f9e8-eca7-49c4-aecc-32ab2286fc13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Screens\Implementations">
+      <UniqueIdentifier>{4c016e31-2c86-4122-89f7-39b1ee120362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Screens\BaseClasses">
+      <UniqueIdentifier>{a63f3935-09df-43b2-86e2-18e314796d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\Components\AbstractClasses">
+      <UniqueIdentifier>{b5c6b7a5-4b6c-4d4c-939f-4b767236660b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="debug\asserts\pow2assert.cpp">
+      <Filter>src\Debug\Asserts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\debug\memoryleak\MemoryLeakController.cpp">
+      <Filter>src\Classes\Debug\MemoryLeak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\Vector2D.cpp">
+      <Filter>src\Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="engines\graphics\CGraphics.cpp">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="engines\graphics\CPaint.cpp">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="engines\graphics\CSprite.cpp">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="engines\graphics\CSpriteFactory.cpp">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="engines\graphics\CTextureManager.cpp">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\Color.cpp">
+      <Filter>src\Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="engines\input\CInputManager.cpp">
+      <Filter>win32\Engines\Input\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="engines\manager\CManager.cpp">
+      <Filter>win32\Engines\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\PlayerController.cpp">
+      <Filter>src\Classes\Components\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\AIController.cpp">
+      <Filter>src\Classes\Components\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\entities\PlayerEntity.cpp">
+      <Filter>src\Classes\Entities\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\entities\AIEntity.cpp">
+      <Filter>src\Classes\Entities\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\ScreenBorderCollider.cpp">
+      <Filter>src\Classes\Components\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="engines\graphics\CEntityFactory.cpp">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\entities\CEntity.cpp">
+      <Filter>src\Classes\Entities\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\CGame.cpp">
+      <Filter>src\Classes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\CScreen.cpp">
+      <Filter>src\Classes\Screens\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scenes\MainScreen.cpp">
+      <Filter>src\Classes\Screens\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="engines\screens\CScreenManager.cpp">
+      <Filter>win32\Engines\Screens\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\CComponent.cpp">
+      <Filter>src\Classes\Components\AbstractClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="engines\graphics\CComponentFactory.cpp">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\utils\StringUtils.cpp">
+      <Filter>src\Classes\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Globals.h">
+      <Filter>src\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="debug\asserts\pow2assert.h">
+      <Filter>src\Debug\Asserts</Filter>
+    </ClInclude>
+    <ClInclude Include="debug\includes\WindowsIncludes.h">
+      <Filter>src\Debug\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\debug\memoryleak\MemoryLeakController.h">
+      <Filter>src\Classes\Debug\MemoryLeak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\Vector2D.h">
+      <Filter>src\Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\ITextureManager.h">
+      <Filter>win32\Engines\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\IGraphics.h">
+      <Filter>win32\Engines\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\IPaint.h">
+      <Filter>win32\Engines\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\ISprite.h">
+      <Filter>win32\Engines\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\ISpriteFactory.h">
+      <Filter>win32\Engines\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\CGraphics.h">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\CPaint.h">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\CSprite.h">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\CSpriteFactory.h">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\CTextureManager.h">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\Color.h">
+      <Filter>src\Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\Singleton.h">
+      <Filter>src\Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\input\IInputManager.h">
+      <Filter>win32\Engines\Input\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\input\CInputManager.h">
+      <Filter>win32\Engines\Input\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\manager\CManager.h">
+      <Filter>win32\Engines\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\AIController.h">
+      <Filter>src\Classes\Components\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\PlayerController.h">
+      <Filter>src\Classes\Components\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\entities\AIEntity.h">
+      <Filter>src\Classes\Entities\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\entities\PlayerEntity.h">
+      <Filter>src\Classes\Entities\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\ScreenBorderCollider.h">
+      <Filter>src\Classes\Components\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\IEntityFactory.h">
+      <Filter>win32\Engines\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\CEntityFactory.h">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\entities\CEntity.h">
+      <Filter>src\Classes\Entities\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\CGame.h">
+      <Filter>src\Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\CSreen.h">
+      <Filter>src\Classes\Screens\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scenes\MainScreen.h">
+      <Filter>src\Classes\Screens\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\screens\CScreenManager.h">
+      <Filter>win32\Engines\Screens\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\screens\IScreenManager.h">
+      <Filter>win32\Engines\Screens\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\CComponent.h">
+      <Filter>src\Classes\Components\AbstractClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\IComponentFactory.h">
+      <Filter>win32\Engines\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="engines\graphics\CComponentFactory.h">
+      <Filter>win32\Engines\Graphics\Implementations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\StringUtils.h">
+      <Filter>src\Classes\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

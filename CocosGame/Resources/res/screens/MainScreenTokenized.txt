@@ -1,0 +1,6 @@
+CE res/spaceships/ship1.png 250 40 -1
+CE res/spaceships/ship2.png 250 300 -1
+PCC 0
+SBCC 0
+AIC 1
+Exit

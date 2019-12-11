@@ -1,0 +1,15 @@
+[ENTITYS]
+
+[{CEntity CE // AIEntity AIE // PlayerEntity PE} texturePath x y parentID (references the entities, -1 for None)]
+CE res/spaceships/ship1.png x y -1
+CE res/spaceships/ship2.png x y -1
+
+[COMPONENTS]
+
+[{CComponent CC // AIController AIC // PlayerController PCC // ScreenBorderCollider SBCC} parentID (references the entities above)]
+PCC 0
+SBCC 0
+AIC 1
+
+[{ExitButton Exit}]
+Exit
